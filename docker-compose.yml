@@ -19,6 +19,7 @@ services:
     network_mode: "host"
     stdin_open: true
     tty: true
+    user: "$USER_ID:$GROUP_ID"
     build:
       context: .
       dockerfile: ./Dockerfile
