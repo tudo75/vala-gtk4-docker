@@ -11,6 +11,7 @@ services:
     volumes:
       - "$HOME/.Xauthority:/home/valauser/.Xauthority:rw"
       - "$HOME/dev_projects/:/home/valauser/dev_projects/"
+      - "$HOME/.gitconfig:/home/valauser/.gitconfig"
       - "/etc/timezone:/etc/timezone:ro"
       - "/etc/localtime:/etc/localtime:ro"
     dns:
