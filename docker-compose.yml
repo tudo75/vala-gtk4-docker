@@ -1,8 +1,8 @@
-version: '3.4'
+version: '3.5'
 
 services:
-  valagtk4:
-    image: valagtk4
+  vala-gtk4:
+    image: vala-gtk4
     container_name: vala-gtk4
     command: /bin/bash
     environment:
